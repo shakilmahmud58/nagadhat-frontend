@@ -18,6 +18,7 @@ function Searchbar(){
     <div>
         <div className="container my-4">
          <h2 className="my-2">Press the submit button to see the results.</h2>
+         <div>Search Enginee contains ['computer', 'laptop', 'mobile', 'tablet', 'wifi', 'router'];</div>
          <form onSubmit={search}>
           <input type="text" className="form-control my-1" placeholder="Search..." onChange={(e)=>{setText(e.target.value)}}/>
           <select className="form-control my-1" value={user} onChange={(e)=>{setUser(e.target.value)}}>
