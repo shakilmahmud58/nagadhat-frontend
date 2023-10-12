@@ -99,6 +99,7 @@ function History(){
 
     return (
         <div className="container">
+          <div>Refresh the page to see new added history</div>
           <div className="row my-4">
           <div className="col-3 border border-1 p-3">
           <div>
